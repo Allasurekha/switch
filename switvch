@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+main()
+{
+int choce;
+scanf("%d",&choice);
+printf("food item:\n price:\n");
+swich(choice)
+{
+case 1 :
+printf(" dosa\n 20");
+break;
+case 2 :
+printf("idly\n 10");
+break;
+case 3 :
+printf("vada\n 30");
+break;
+case 4 :
+printf("chapathi\n 50');
+break;
+case 5 :
+printf("poori\n 70");
+ break;
+ default:
+ printf("invalid");
+ }
+ return0;
+ }
